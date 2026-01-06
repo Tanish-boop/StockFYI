@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link {
+  margin-left: 40px;
+}
+
+/* HERO SECTION */
+#supportHero {
+  background-color: rgb(56, 126, 209);
+  color: white;
+}
+
+/* LINKS */
+#supportHero a {
+  color: white;
+  text-decoration: none;
+}
+
+#supportHero a:hover {
+  text-decoration: underline;
+}
+
+/* TOP BAR */
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;   /* responsive instead of fixed margin */
+}
+
+/* SEARCH INPUT */
+#supportHero input {
+  padding: 16px 20px;   /* balanced padding */
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+/* LINKS UNDER INPUT */
+#supportHero .help-links a {
+  display: block;
+  margin-top: 8px;
+}
+#supportHero .help-links a:hover {
+  text-decoration: underline;
+}
+/* FEATURED SECTION */
+#supportHero .featured-list li {
+  margin-bottom: 10px;
+}
+#supportHero .featured-list li a {
+  color: white;
+  text-decoration: none;
+}
+#supportHero .featured-list li a:hover {
+  text-decoration: underline;
+}
